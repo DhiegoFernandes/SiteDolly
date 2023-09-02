@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu_Navegacao {
+    display: flex;
+    margin: auto;
+    /* Coloca ao lado */
+    justify-content: space-between;
+    /* horizontal */
+    align-items: center;
+    /* vertical */
+    background-color: #DEEAB9;
+
+    /*
+    justify-content: start;  alinha na esquerda 
+    justify-content: end;  alinha na direita 
+    */
+}
+
+ul,
+li {
+    display: inline-block;
+    margin-left: 90px;
+    margin-right: 20px;
+    font-family: Lato;
+    cursor: pointer;
+
+
+}
+
+.img_logo {
+    margin-left: 100px;
+    width: 180px;
+    height: 120px;
+}
+
+.conteudo_principal {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    /* coloca lado a lado */
+    justify-content: space-evenly;
+    margin-top: 48px;
+
+
+}
+
+.mensagem_principal {
+    margin-left: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Lato;
+    margin: 4px 0 10px;
+    width: fit-content;
+}
+h1{
+    color: #006633;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+h3 {
+    font-weight: 100;
+    background-color: #006633;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 4px 0 8px;
+    color: white;
+}
+
+
+.dolly {
+    margin: 200px 0px 0px -170px;
+}
+
+.NossosVideos {
+    color: #4FA7B0;
+    font-size: 28px;
+    margin-left: 200px;
+    margin-top: 180px;
+    margin-bottom: 20px;
+
+}
+
+.videos{
+    margin-left: 200px;
+    text-align: center;
+}
+
+.redessociais{
+    color: #4FA7B0;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.icons{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+i{
+    cursor: pointer;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    margin: auto;
+    /* Coloca ao lado */
+    justify-content: center;
+    /* horizontal */
+    align-items: center;
+    /* vertical */
+    background-color: #006633;
+
+
+}
